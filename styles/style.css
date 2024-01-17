@@ -5,7 +5,6 @@
 }
 
 .header-section {
-    border: 2px solid tomato;
     display: flex;
     width: 50%;
     align-items: center;
@@ -24,7 +23,6 @@
 }
 
 .header-contant {
-    border: 2px solid yellow;
     display: block;
     width: 50%;
     align-items: center;
@@ -261,6 +259,7 @@
 .description input-type button-type {
     margin: 15px;
 }
+
 .button-color button {
     width: 393px;
     height: 52px;
@@ -293,15 +292,16 @@
     color: rgba(19, 19, 24, 0.30);
 
 }
-.input-type input{
+
+.input-type input {
     color: rgba(19, 19, 24, 0.30);
 
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-justify-content: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
 
 }
 
@@ -314,14 +314,50 @@ justify-content: center;
     background: rgba(19, 19, 24, 0.05);
     color: rgba(19, 19, 24, 0.30);
 }
-.email-type input{
+
+.email-type input {
     color: rgba(19, 19, 24, 0.30);
 
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 16px;
-text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+    text-align: center;
+}
+
+footer {
+    width: 1440px;
+    height: 502px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.footer-section img {
+    padding-right: 15px;
+}
+
+footer div {
+    text-align: center;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-img img{
+    margin-top: 35px;
+    padding: 15px;
+    margin-bottom: 100px;
 }
