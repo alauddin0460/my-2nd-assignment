@@ -59,6 +59,7 @@
     font-size: 64px;
     font-weight: 800;
     padding-top: 106px;
+    padding: 24px;
 }
 
 .explore-section p {
@@ -123,16 +124,105 @@
 }
 
 /* destination image container  */
-.destination-img-container{
+.destination-img-container {
     width: 1170px;
     margin: 0 auto;
 }
-.destination-img-container{
+
+.destination-img-container {
     width: 1170px;
     margin-top: 100px;
     text-align: center;
-    
+
 }
-.destination-img-containe div{
+
+.destination-img-containe div {
     /* justify-content: center; */
+}
+
+/* choose us section  */
+.choose-us-container {
+    width: 1170px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+.section-contant-logo {
+    max-width: 1170px;
+    display: flex;
+    margin-top: 48px;
+
+}
+
+.choose-us-heading {
+    text-align: center;
+}
+
+.choose-us-heading h2 {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hotel-section {
+    min-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 20px;
+    padding: 32px;
+
+}
+
+.service-section {
+    min-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.price-section {
+    min-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+
+
+/* deal and discount section  */
+.section-content h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-content p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-banner-one {
+    background-image: url('../Images/rectangle12.png');
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
 }
