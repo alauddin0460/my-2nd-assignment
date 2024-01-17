@@ -1,0 +1,138 @@
+.header-title-section {
+    width: 1770px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-section {
+    border: 2px solid tomato;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.header-section h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 10px;
+
+}
+
+.header-section h2 span {
+    color: #FF5400;
+}
+
+.header-contant {
+    border: 2px solid yellow;
+    display: block;
+    width: 50%;
+    align-items: center;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-contant a {
+    text-decoration: none;
+}
+
+.home-color {
+    color: #FF5400;
+}
+
+.explore-section {
+    background-image: url('../Images/group13.png');
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.explore-section {
+    text-align: center;
+}
+
+.explore-section h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+
+.explore-section p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.button-section {
+    background-size: 768px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.whait-button button {
+    width: 174px;
+    height: 52px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-tomato button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popular-tour-container {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.popular-contant {
+    justify-content: space-between;
+    /* padding: 16px; */
+}
+
+.popular-contant h2 {
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* destination image container  */
+.destination-img-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.destination-img-container{
+    width: 1170px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.destination-img-containe div{
+    /* justify-content: center; */
+}
