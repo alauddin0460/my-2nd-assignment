@@ -50,7 +50,9 @@
 }
 
 .explore-section {
+    /* display: block; */
     text-align: center;
+    /* justify-content: center; */
 }
 
 .explore-section h1 {
@@ -72,12 +74,17 @@
 }
 
 .button-section {
-    background-size: 768px;
+    width: 768px;
+    height: 72px;
+    padding-top: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: flex;
     justify-content: center;
     border: none;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
 }
 
 .whait-button button {
@@ -225,4 +232,96 @@
     width: 1170px;
     height: 500px;
     margin: 0 auto;
+}
+
+
+
+/* news letter section  */
+.newsletter-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.description-img img {
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.description input-type input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.description input-type button-type {
+    margin: 15px;
+}
+.button-color button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.input-type {
+    width: 393px;
+    height: 52px;
+    margin: 16px;
+    justify-content: center;
+    /* margin-top: 48px; */
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+
+}
+.input-type input{
+    color: rgba(19, 19, 24, 0.30);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+
+}
+
+.email-type {
+    width: 393px;
+    height: 52px;
+    margin: 16px;
+    /* text-align: center; */
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+}
+.email-type input{
+    color: rgba(19, 19, 24, 0.30);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 16px;
+text-align: center;
 }
